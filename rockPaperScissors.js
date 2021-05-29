@@ -23,7 +23,7 @@ const determineWinner = (userChoice, computerChoice) => {
   if (userChoice === computerChoice) {
     return "You tied!";
   }
-  if(userChoice === "bomb") {
+  if (userChoice === "bomb") {
     console.log("Computer: ...")
     console.log("You: lol get rekt")
     console.log(`
